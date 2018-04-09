@@ -1,0 +1,42 @@
+{
+  "name": "@ua/renovate-config",
+  "version": "0.0.3",
+  "description": "Configurations for UA Renovate usage",
+  "repository": {
+    "type": "git",
+    "url": "github:underarmour/ua-renovate-config"
+  },
+  "bugs": {
+    "url": "https://github.com/underarmour/ua-renovate-config/issues"
+  },
+  "author": "Under Armour",
+  "license": "MIT",
+  "renovate-config": {
+    "base": {
+      "description": ["Default UA base configuration for all languages"],
+      "extends": [
+        ":separateMajorReleases",
+        ":combinePatchMinorReleases",
+        ":ignoreUnstable",
+        ":prImmediately",
+        ":renovatePrefix",
+        ":semanticPrefixFixDepsChoreOthers",
+        ":updateNotScheduled",
+        ":automergeAll",
+        ":ignoreModulesAndTests",
+        ":maintainLockFilesWeekly",
+        ":preserveSemverRanges",
+        "group:monorepos",
+        "helpers:disableTypesNodeMajor",
+        "helpers:oddIsUnstablePackages"
+      ],
+      "dependencies": {
+        "major": {
+          "automerge": false
+        }
+      },
+      "labels": ["renovate"],
+      "upgradeInRange": true
+    }
+  }
+}
