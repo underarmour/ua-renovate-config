@@ -1,5 +1,5 @@
 {
-  "name": "@ua/renovate-config",
+  "name": "@underarmour/renovate-config",
   "version": "0.0.3",
   "description": "Configurations for UA Renovate usage",
   "repository": {
