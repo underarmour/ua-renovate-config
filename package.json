@@ -1,6 +1,6 @@
 {
   "name": "@underarmour/renovate-config",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Configurations for UA Renovate usage",
   "repository": {
     "type": "git",
@@ -15,6 +15,7 @@
     "base": {
       "description": ["Default UA base configuration for all languages"],
       "extends": [
+        "config:base",
         ":separateMajorReleases",
         ":combinePatchMinorReleases",
         ":ignoreUnstable",
