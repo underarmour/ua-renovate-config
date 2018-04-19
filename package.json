@@ -1,6 +1,6 @@
 {
   "name": "@underarmour/renovate-config",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Configurations for UA Renovate usage",
   "repository": {
     "type": "git",
@@ -36,6 +36,7 @@
           "automerge": false
         }
       },
+      "prHourlyLimit": 0,
       "labels": ["renovate"],
       "upgradeInRange": true
     }
