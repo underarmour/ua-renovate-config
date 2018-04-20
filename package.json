@@ -1,6 +1,6 @@
 {
   "name": "@underarmour/renovate-config",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Configurations for UA Renovate usage",
   "repository": {
     "type": "git",
@@ -27,6 +27,7 @@
         ":ignoreModulesAndTests",
         ":maintainLockFilesWeekly",
         ":preserveSemverRanges",
+        ":rebaseStalePrs",
         "group:monorepos",
         "helpers:disableTypesNodeMajor",
         "helpers:oddIsUnstablePackages"
