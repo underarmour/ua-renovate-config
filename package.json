@@ -1,6 +1,6 @@
 {
   "name": "@underarmour/renovate-config",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Configurations for UA Renovate usage",
   "repository": {
     "type": "git",
@@ -13,7 +13,9 @@
   "license": "MIT",
   "renovate-config": {
     "base": {
-      "description": ["Default UA base configuration for all languages"],
+      "description": [
+        "Default UA base configuration for all languages"
+      ],
       "extends": [
         "config:base",
         ":separateMajorReleases",
@@ -39,7 +41,9 @@
         }
       },
       "prHourlyLimit": 0,
-      "labels": ["renovate"],
+      "labels": [
+        "renovate"
+      ],
       "upgradeInRange": true
     }
   }
