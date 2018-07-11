@@ -18,6 +18,7 @@
         "config:base",
         ":separateMajorReleases",
         ":combinePatchMinorReleases",
+        ":disablePeerDependencies",
         ":ignoreUnstable",
         ":prImmediately",
         ":renovatePrefix",
