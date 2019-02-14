@@ -41,6 +41,7 @@
           "automerge": false
         }
       },
+      "timezone": "America/Chicago",
       "prHourlyLimit": 0,
       "labels": [
         "renovate"
